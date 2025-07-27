@@ -1,0 +1,277 @@
+#Home
+{
+    background-image:url("homepagebg_2.jpg");
+    background-size:cover;
+    height:100vh;
+    width:100vw;
+}
+
+#home1
+{
+    position:relative;
+    top:35px;
+    color: rgb(249, 253, 248);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+
+
+#home1 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+#home1 a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+#home1 a:hover::after {
+    width: 50%;
+    left: 25%;
+}
+
+
+
+
+/* Center the text properly */
+#home2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+
+
+#About
+{
+    background-color:white;
+    height:100vh;
+    width:100vw;
+    display:inline-block;
+ 
+}
+
+
+
+#box1
+{
+    background-color:gray;
+    height:500px;
+    width:500px;
+    display:inline-block;
+    align-items: centre;
+    position:relative;
+    left:100px;
+    top:90px;
+    padding:30px;
+}
+
+
+
+
+#box2
+{
+    background-color: rgb(187, 184, 184);
+    height:580px;
+    width:600px;
+    display:inline-block;
+    align-items:centre;
+    position:relative;
+    left:150px;
+    top:100px;
+    padding:40px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+
+#Certificates {
+    background-color:rgb(187, 184, 184);
+    min-height: 120vh; /* Enough space for 2 rows */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#box15 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Row styling (each row holds certificates) */
+.cert-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;  /* space between boxes */
+    margin-bottom: 40px;
+}
+
+/* Each certificate box */
+.cert-box {
+    background-color:gray;
+    height: 350px;
+    width: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.cert-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Make images fit */
+.cert-box img {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+}
+
+/* Main Projects Section */
+#Projects {
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title */
+#box3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+/* Row container for the 3 project boxes */
+.project-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* space between the boxes */
+    overflow-x: auto; /* enable horizontal scroll on small screens */
+    white-space: nowrap; /* prevent wrapping */
+    padding-bottom: 20px;
+}
+
+/* Style for each box */
+.project-boxes div {
+    background-color: whitesmoke;
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    flex-shrink: 0; /* prevent boxes from shrinking */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Make images fit within the box */
+.project-boxes img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Hide scrollbar (optional, for a cleaner look) */
+.project-boxes::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+#Resume
+{
+    background-color: whitesmoke;
+    height:100vh;
+    width:100vw;
+       
+
+
+
+}
+
+
+
+
+#box6
+{
+    font-family: sans-serif;
+    font-size: 30px;
+    position:relative;
+    top:45px;
+    left:650px;
+    
+}
+
+
+
+#box7
+{
+    position:relative;
+    top:100px;
+    left:550px;
+}
+
+
+#Contact
+{
+    background-color:gray;
+    height:30vh;
+    width:100vw;
+
+}
+
+
+
+#box8
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    position:relative;
+    left:30px;
+    top:10px;
+}
+
+#box9
+{
+    position:relative;
+    left:30px;
+   
+}
+
